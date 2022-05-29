@@ -1,0 +1,13 @@
+public class TwiceAsOld{
+
+  public static int TwiceAsOld(int dadYears, int sonYears){
+    int twice;
+    if (dadYears == 2*sonYears){
+      twice = 0;
+    } else{
+      twice = Math.abs(dadYears  - 2 * sonYears);
+    }
+    return twice;
+  }
+
+}
